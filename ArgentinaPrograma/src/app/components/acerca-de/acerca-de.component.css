@@ -7,7 +7,7 @@ div{
 }
 
 /*estilo de la foto de perfil*/
-@media (min-width: 570px){
+@media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
         width: 15%;
@@ -18,14 +18,14 @@ div{
     }
 }
 
-@media (max-width: 569px){
+@media (max-width: 575px){
     #fotodeperfil{
         position: absolute;
         width: 40%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px grey;
         left: 30%;
-        top: 630px;
+        top: 565px;
     }
 }
 /*etiqueta nombre*/
