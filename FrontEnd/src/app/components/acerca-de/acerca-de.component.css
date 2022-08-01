@@ -2,8 +2,15 @@
     padding: 20px;
 }
 div{
-    background-color: #a1b5cb;
+    background-color: #24557E;
     text-align: center;
+    
+    justify-content: space-between;
+    align-items:flex-start; 
+    
+}
+h2, p{
+    color: #e4fff9;
 }
 
 /*estilo de la foto de perfil*/
@@ -12,7 +19,7 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 10px 10px 10px rgb(24, 23, 23);
         left: 2%;
         top: 630px;
     }
@@ -23,7 +30,7 @@ div{
         position: absolute;
         width: 40%;
         border-radius: 100%;
-        box-shadow: 3px 3px 3px grey;
+        box-shadow: 10px 10px 10px rgb(24, 23, 23);
         left: 30%;
         top: 565px;
     }
